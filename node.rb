@@ -1,6 +1,6 @@
 require 'ostruct'
 
-# Node class
+# Node class updated
 class Node < OpenStruct
  DEFAULTS = { :root => { :open => true, :can_take => false, :can_open => false, :can_see => "none", :locked => false }, # initialize hash obj to hold defaults of different node types
 	      :room => { :open => true, :can_take => false, :can_open => false, :can_see => "none", :locked => false },
