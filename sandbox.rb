@@ -357,6 +357,9 @@ loop do
     player = myroot.find(:player)
   
     if Player.first_time
+    print "*****************************************************************************\n"
+    print "**               F L A S H L I G H T    M Y S T E R Y                      **\n"
+    print "*****************************************************************************\n"
     print "\nYou've just woken up somewhere. The question is where . . . " 
     print "\nWhat you do know is that it's pitch black, and despite the few moments that"
     print "\nhave passed, your world unfortunately remains dark. However, it's not long"
