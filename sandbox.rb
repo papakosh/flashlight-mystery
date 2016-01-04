@@ -1,8 +1,5 @@
 require 'yaml'
-
-# Fix load path
-$: << '.'
-require 'node'
+require_relative 'node'
 
 # define new gameplay and test
 # define command help - 
